@@ -1,0 +1,9 @@
+# OS files
+.DS_Store
+
+# Backup files
+*.bak
+*.new
+
+# PDF files
+*.pdf
