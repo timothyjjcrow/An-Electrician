@@ -345,7 +345,7 @@ nav ul li a.active::after {
   align-items: center;
   padding-top: 80px;
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .hero::before {
@@ -357,8 +357,8 @@ nav ul li a.active::after {
   bottom: 0;
   background: linear-gradient(
     45deg,
-    rgba(18, 18, 18, 0.8) 0%,
-    rgba(18, 18, 18, 0.6) 100%
+    rgba(18, 18, 18, 0.3) 0%,
+    rgba(18, 18, 18, 0.3) 100%
   );
   z-index: 0;
 }
@@ -450,8 +450,15 @@ nav ul li a.active::after {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
 .hero .emergency-service {
-  margin-top: 1.5rem;
   font-weight: 600;
   color: var(--secondary);
   display: inline-block;
@@ -1740,6 +1747,16 @@ footer > p {
 @media (max-width: 768px) {
   .hero h1 {
     font-size: clamp(2rem, 5vw, 3rem);
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero .emergency-service {
+    margin-top: 0;
+    margin-left: 0;
   }
 
   .service-category {
