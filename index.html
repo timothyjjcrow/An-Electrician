@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>An Electrician Inc. - Your Trusted Electrical Contractor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script>
+      // Fallback for Font Awesome
+      window.addEventListener(
+        "error",
+        function (e) {
+          if (
+            e.target.tagName === "LINK" &&
+            e.target.href.includes("font-awesome")
+          ) {
+            var fallback = document.createElement("link");
+            fallback.rel = "stylesheet";
+            fallback.href =
+              "https://use.fontawesome.com/releases/v6.4.0/css/all.css";
+            document.head.appendChild(fallback);
+          }
+        },
+        true
+      );
+    </script>
+    <meta
+      name="description"
+      content="An Electrician Inc. - Full Service Electrical Contractor in Northern California providing Industrial Automation coast to coast."
+    />
+  </head>
+  <body>
+    <div class="lightning"></div>
+    <div class="electric-line electric-line-1"></div>
+    <div class="electric-line electric-line-2"></div>
+
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="images/logo.png" alt="An Electrician Inc. Logo" />
+        </div>
+        <div class="nav-right">
+          <div class="phone-number">
+            <a href="tel:877-786-2911">(877) 786-2911</a>
+          </div>
+          <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#brochure">Brochure</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-content fade-in">
+        <h1><span class="electric-text">Need an Electrician?</span></h1>
+        <p>
+          Welcome to An Electrician Inc. We are the Full Service Electrical
+          Contractor in Northern California & Provide Industrial Automation from
+          Coast to Coast.
+        </p>
+        <a href="#contact" class="cta-button">Request a Quote</a>
+        <p class="emergency-service">24/7 Emergency Service Available</p>
+      </div>
+      <img
+        src="images/Eureka_Old_Town_and_Clock-2048x1542.jpg"
+        alt="Eureka Old Town - Our Service Area"
+        class="hero-background-image"
+      />
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <h2 class="section-title fade-in">
+          <span class="electric-text">Our Services</span>
+        </h2>
+        <p class="service-intro fade-in">
+          An Electrician Inc. is a full service residential and commercial
+          contractor specializing in electrical construction, repairs and
+          services all over Northern California. We provide excellent customer
+          care through our exceptional workmanship and attention to detail,
+          adhering to safety standards as well as our Clients' vision and
+          requirements.
+        </p>
+        <div class="service-categories">
+          <div class="service-category slide-in-left">
+            <img
+              src="images/residential.jpg"
+              alt="Residential Electrical Services"
+            />
+            <div class="service-category-content">
+              <h3 class="spark-element">Residential Services</h3>
+              <ul>
+                <li>Panel replacement</li>
+                <li>Electrical wiring</li>
+                <li>Lighting replacement</li>
+                <li>Backup generators</li>
+                <li>Media / TV Points</li>
+                <li>Safety Switches</li>
+                <li>Service panel upgrade</li>
+                <li>New outlet installation</li>
+                <li>Overhead mast repair</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-category fade-in">
+            <img
+              src="images/commercial work 2.jpg"
+              alt="Commercial Electrical Services"
+            />
+            <div class="service-category-content">
+              <h3 class="spark-element">Commercial Services</h3>
+              <ul>
+                <li>Circuit Breaker Replacement</li>
+                <li>Commercial Electrical Services</li>
+                <li>Code Corrections</li>
+                <li>Breaker Box replacement</li>
+                <li>Signage Installation & Repairs</li>
+                <li>Remodeling & New Construction</li>
+                <li>Complete & Diverse Lighting Systems</li>
+                <li>Power Points & New Panels – UL®</li>
+                <li>Testing and Tagging</li>
+                <li>Emergency and Exit Lighting</li>
+                <li>Preventative Maintenance</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-category slide-in-right">
+            <img
+              src="images/Panel Build for Sierra Pacific Industries, Quincy, CA.jpg"
+              alt="Industrial Electrical Services"
+            />
+            <div class="service-category-content">
+              <h3 class="spark-element">Industrial Services</h3>
+              <ul>
+                <li>Consultation & Design</li>
+                <li>Automation</li>
+                <li>Drives & Motors</li>
+                <li>Control System Integration</li>
+                <li>High-Voltage Utility Service</li>
+                <li>Transformer Placement</li>
+                <li>Switch Gear Installation</li>
+                <li>Power Distribution Construction</li>
+                <li>Manufacturing Automation Systems</li>
+                <li>Horizontal Directional Drilling (HDD)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="service-highlights">
+          <div class="service-highlight-item fade-in">
+            <div class="service-icon">
+              <i class="fas fa-certificate"></i>
+              <div class="icon-glow"></div>
+            </div>
+            <h4 class="spark-element">UL® Listed 508A Panel Fabricator</h4>
+            <p>
+              We develop electrical systems & machinery automation using the
+              highest standards of safety and quality.
+            </p>
+          </div>
+          <div class="service-highlight-item fade-in">
+            <div class="service-image">
+              <img
+                src="images/design blueprints.jpg"
+                alt="Electrical Design Blueprints"
+                class="service-blueprint-image"
+              />
+            </div>
+            <h4 class="spark-element">Professional Design Services</h4>
+            <p>
+              Our engineering team creates detailed electrical blueprints and
+              designs tailored to your specific project requirements.
+            </p>
+          </div>
+          <div class="service-highlight-item fade-in">
+            <div class="service-icon">
+              <i class="fas fa-lightbulb"></i>
+              <div class="icon-glow"></div>
+            </div>
+            <h4 class="spark-element">Lighting Upgrades</h4>
+            <p>
+              AEI specializes in doing energy-efficient lighting upgrades and
+              retrofits designed and installed by professionals.
+            </p>
+          </div>
+          <div class="service-highlight-item fade-in">
+            <div class="service-icon">
+              <i class="fas fa-cogs"></i>
+              <div class="icon-glow"></div>
+            </div>
+            <h4 class="spark-element">Industrial Automation</h4>
+            <p>
+              AEI installs and programs complete automation systems for
+              machinery controls utilizing the latest in technology to ensure
+              your processes are state of the art.
+            </p>
+          </div>
+          <div class="service-highlight-item fade-in">
+            <div class="service-icon">
+              <i class="fas fa-bolt"></i>
+              <div class="icon-glow"></div>
+            </div>
+            <h4 class="spark-element">Drives and Motors</h4>
+            <p>
+              We design and install motor application for AC and DC motors,
+              automated speed controls, system starting, reduced voltage, across
+              line, high voltage and soft starters.
+            </p>
+          </div>
+          <div class="service-highlight-item fade-in">
+            <div class="service-icon">
+              <i class="fas fa-solar-panel"></i>
+              <div class="icon-glow"></div>
+            </div>
+            <h4 class="spark-element">Solar Power</h4>
+            <p>
+              AEI technicians plan, install, and maintain arrays of solar panels
+              at industrial, commercial, and residential sites.
+            </p>
+          </div>
+          <div class="service-highlight-item fade-in">
+            <div class="service-icon">
+              <i class="fas fa-plug"></i>
+              <div class="icon-glow"></div>
+            </div>
+            <h4 class="spark-element">Wiring Upgrades</h4>
+            <p>
+              Let us assist you with a service panel upgrade, new outlet,
+              addition or repair of your overhead mast.
+            </p>
+          </div>
+          <div class="service-highlight-item fade-in">
+            <div class="service-icon">
+              <i class="fas fa-power-off"></i>
+              <div class="icon-glow"></div>
+            </div>
+            <h4 class="spark-element">Backup Generators</h4>
+            <p>
+              A backup generator delivers power directly to your electrical
+              system, backing up your entire home or business.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="brochure" class="brochure-section">
+      <div class="container">
+        <h2 class="section-title fade-in">
+          <span class="electric-text">Our Brochure</span>
+        </h2>
+        <div class="brochure-content">
+          <div class="brochure-info slide-in-left">
+            <h3 class="spark-element">Download Our Comprehensive Brochure</h3>
+            <p>
+              Learn more about our full range of services, company history, and
+              commitment to quality in our detailed brochure. This informative
+              guide provides in-depth information about:
+            </p>
+            <ul>
+              <li>Our complete range of electrical services</li>
+              <li>Industrial automation solutions</li>
+              <li>UL® 508A panel fabrication capabilities</li>
+              <li>Project portfolio and case studies</li>
+              <li>Company certifications and qualifications</li>
+              <li>Our approach to customer service</li>
+            </ul>
+            <a href="aei-brochure-web.pdf" download class="cta-button">
+              <i class="fas fa-download"></i> Download Brochure
+            </a>
+          </div>
+          <div class="brochure-preview slide-in-right">
+            <div class="pdf-container">
+              <!-- Primary embed method -->
+              <iframe
+                src="aei-brochure-web.pdf"
+                title="An Electrician Inc. Brochure"
+              ></iframe>
+
+              <!-- Fallback content for browsers where iframe fails -->
+              <noscript>
+                <div class="pdf-fallback">
+                  <p>
+                    Please enable JavaScript to view the brochure, or
+                    <a href="aei-brochure-web.pdf" download>download it here</a
+                    >.
+                  </p>
+                </div>
+              </noscript>
+
+              <div class="overlay">
+                <a
+                  href="aei-brochure-web.pdf"
+                  target="_blank"
+                  class="view-button"
+                >
+                  <i class="fas fa-eye"></i> View Full Brochure
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="featured-projects fade-in">
+          <h3 class="spark-element">Featured Projects</h3>
+          <div class="projects-grid">
+            <div class="project-card">
+              <h4>Industrial Automation</h4>
+              <p>
+                Complete automation systems for manufacturing facilities using
+                state-of-the-art technology.
+              </p>
+            </div>
+            <div class="project-card">
+              <h4>UL® Listed Control Panel Design</h4>
+              <p>
+                Custom-designed control panels meeting UL® 508A standards for
+                safety and reliability.
+              </p>
+            </div>
+            <div class="project-card">
+              <h4>Commercial Electrical Services</h4>
+              <p>
+                Comprehensive electrical solutions for businesses of all sizes
+                throughout Northern California.
+              </p>
+            </div>
+            <div class="project-card">
+              <h4>Residential System Upgrades</h4>
+              <p>
+                Modern electrical upgrades to improve efficiency, safety, and
+                reliability in homes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <div class="bg-grid"></div>
+      <div class="bg-glow"></div>
+      <div class="container">
+        <h2 class="section-title fade-in">
+          <span class="electric-text">Our Projects</span>
+        </h2>
+        <p class="projects-intro fade-in">
+          At An Electrician Inc., we take pride in our diverse range of
+          completed projects. Our team has provided electrical solutions for
+          manufacturing facilities, commercial buildings, and residential
+          properties throughout Northern California.
+        </p>
+
+        <div class="project-showcase">
+          <div class="project-item fade-in" data-category="industrial">
+            <div class="project-image">
+              <img
+                src="images/our projects Panel Build for Sierra Pacific Industries.jpg"
+                alt="Panel Build for Sierra Pacific Industries"
+              />
+              <div class="project-overlay">
+                <h4 class="spark-element">Industrial Panel Build</h4>
+                <p>Sierra Pacific Industries Panel Build Project</p>
+                <span class="project-tag">Industrial</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-item fade-in" data-category="industrial">
+            <div class="project-image">
+              <img
+                src="images/our projects Panel Build for Sierra Pacific Industries 2.jpg"
+                alt="Panel Build for Sierra Pacific Industries 2"
+              />
+              <div class="project-overlay">
+                <h4 class="spark-element">Control Panel Installation</h4>
+                <p>Custom control panel design and implementation</p>
+                <span class="project-tag">Industrial</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-item fade-in" data-category="industrial">
+            <div class="project-image">
+              <img
+                src="images/our projects horizontal drilling.jpg"
+                alt="Horizontal Directional Drilling"
+              />
+              <div class="project-overlay">
+                <h4>Horizontal Directional Drilling</h4>
+                <p>
+                  Underground electrical installation with minimal surface
+                  disruption
+                </p>
+                <span class="project-tag">Industrial</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-item fade-in" data-category="commercial">
+            <div class="project-image">
+              <img
+                src="images/commercial work.jpg"
+                alt="Commercial Electrical Installation"
+              />
+              <div class="project-overlay">
+                <h4>Commercial Lighting Installation</h4>
+                <p>Energy-efficient lighting solutions for commercial spaces</p>
+                <span class="project-tag">Commercial</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-item fade-in" data-category="industrial">
+            <div class="project-image">
+              <img
+                src="images/our projects industrial.jpg"
+                alt="Industrial Electrical Work"
+              />
+              <div class="project-overlay">
+                <h4>Industrial Electrical Systems</h4>
+                <p>
+                  Complex industrial electrical installation and maintenance
+                </p>
+                <span class="project-tag">Industrial</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-item fade-in" data-category="drives">
+            <div class="project-image">
+              <img
+                src="images/our projects C & DC Drive Systems.jpg"
+                alt="C & DC Drive Systems"
+              />
+              <div class="project-overlay">
+                <h4>C & DC Drive Systems</h4>
+                <p>Advanced drive system installation and configuration</p>
+                <span class="project-tag">Drives Systems</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-item fade-in" data-category="industrial">
+            <div class="project-image">
+              <img
+                src="images/UL Certified enclosure!.jpg"
+                alt="UL Certified Control Panel"
+              />
+              <div class="project-overlay">
+                <h4>UL® Certified Control Panels</h4>
+                <p>Custom-built to meet the highest industry standards</p>
+                <span class="project-tag">Industrial</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-item fade-in" data-category="residential">
+            <div class="project-image">
+              <img
+                src="images/residential.jpg"
+                alt="Residential Electrical Services"
+              />
+              <div class="project-overlay">
+                <h4>Residential Upgrades</h4>
+                <p>Modern electrical systems for residential properties</p>
+                <span class="project-tag">Residential</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-cta fade-in">
+          <p>
+            Want to learn more about our project experience and capabilities?
+          </p>
+          <div class="cta-buttons">
+            <a href="#contact" class="cta-button">Request a Quote</a>
+            <a href="#brochure" class="cta-button cta-secondary"
+              >View Our Brochure</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title fade-in">About Us</h2>
+        <div class="about-content">
+          <img
+            src="images/big logo with qr code.jpg"
+            alt="About An Electrician Inc."
+            class="slide-in-left"
+          />
+          <div class="about-text slide-in-right">
+            <h3 class="spark-element">About An Electrician Inc.</h3>
+            <p>
+              An Electrician Inc. provides the latest technological innovations
+              & skilled craftsmanship for Industrial Automation as well as
+              Commercial & Residential Construction and Service. We are licensed
+              and insured, and our history started over 30 years ago, long
+              before our company was formed in 2004. The electrical construction
+              & industrial automation experience of our people has made AEI a
+              very successful company today.
+            </p>
+            <p>
+              Our exceptional project history and high standards of construction
+              have made An Electrician Inc. the company of choice for all of
+              your electrical projects. We develop custom electrical systems and
+              machinery automation to meet the specific needs of our customers,
+              and we perform service and maintenance for those systems so our
+              clients won't miss a beat.
+            </p>
+            <p>
+              AEI's group approach to any project keeps our customers driving on
+              the cutting edge of today's system technologies. Our prestigious
+              resume, project experience and strong, long relationship history
+              makes us agile in today's industry market, keeping projects
+              financially viable for our customers. We can make your business
+              GROW!
+            </p>
+          </div>
+        </div>
+        <div class="additional-about-info fade-in">
+          <h4>What We Offer:</h4>
+          <ul>
+            <li>Budgetary Project Estimating</li>
+            <li>Project Management</li>
+            <li>Courteous staff on call 24/7</li>
+            <li>
+              Commitment to harnessing the power you need, for projects large or
+              small.
+            </li>
+          </ul>
+          <p><em>Quality Work Through Dedication</em></p>
+        </div>
+
+        <div class="safety-reminder fade-in">
+          <div class="safety-image">
+            <img
+              src="images/comic.jpg"
+              alt="Electrical Safety Reminder Comic"
+              class="safety-comic"
+            />
+          </div>
+          <div class="safety-text">
+            <h4 class="spark-element">Safety First!</h4>
+            <p>
+              At An Electrician Inc., we take safety seriously. Always remember
+              to disconnect power before working on electrical systems.
+            </p>
+          </div>
+        </div>
+
+        <div class="team-section">
+          <h3 class="fade-in">Meet Our Team</h3>
+          <div class="team-members">
+            <div class="team-member fade-in">
+              <img
+                src="Employeeicons/DOUG DALY.jpeg"
+                alt="Doug Daly - President"
+                class="team-member-image"
+              />
+              <h4>DOUG DALY</h4>
+              <p>President - AEI's Administrative Electrical Specialist</p>
+            </div>
+            <div class="team-member fade-in">
+              <img
+                src="Employeeicons/MATT CALDERWOOD.jpg"
+                alt="Matt Calderwood - Vice President"
+                class="team-member-image"
+              />
+              <h4>MATT CALDERWOOD</h4>
+              <p>
+                Vice President - AEI's Industrial Automation Controls Specialist
+              </p>
+            </div>
+            <div class="team-member fade-in">
+              <img
+                src="Employeeicons/JIM BURT .jpg"
+                alt="Jim Burt - Drives Division"
+                class="team-member-image"
+              />
+              <h4>JIM BURT</h4>
+              <p>
+                Drives Division - AEI's Premier Drives Specialist with over 30
+                years experience
+              </p>
+            </div>
+            <div class="team-member fade-in">
+              <img
+                src="Employeeicons/CINDY MEADOWS.jpg"
+                alt="Cindy Meadows - Office Manager"
+                class="team-member-image"
+              />
+              <h4>CINDY MEADOWS</h4>
+              <p>
+                Office Manager - Providing all of AEI's Billing and
+                Adminstrative needs
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title fade-in">
+          <span class="electric-text">Contact Us</span>
+        </h2>
+        <div class="contact-container">
+          <div class="contact-info slide-in-left">
+            <h3 class="spark-element">Head Office</h3>
+            <p><i class="fas fa-building"></i> An Electrician Inc.</p>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> 5151 US-101 Eureka, CA 95501
+            </p>
+            <p>
+              <i class="fas fa-phone"></i> Phone:
+              <a href="tel:877-786-2911">(877) 786-2911</a>
+            </p>
+            <p>
+              <i class="fas fa-phone-alt"></i> Additional Phones:
+              <a href="tel:707-834-6596">(707) 834-6596</a> /
+              <a href="tel:707-834-2796">(707) 834-2796</a>
+            </p>
+            <p>
+              <i class="fas fa-envelope"></i> Email:
+              <a href="mailto:mail@anelectrician.net">mail@anelectrician.net</a>
+            </p>
+            <p><i class="fas fa-id-card"></i> CA License #840047</p>
+          </div>
+          <div class="contact-form slide-in-right">
+            <h3 class="spark-element">Request A Quote Today</h3>
+            <form action="#" method="post">
+              <label for="name">Name*</label>
+              <input type="text" id="name" name="name" required />
+              <label for="email">Email*</label>
+              <input type="email" id="email" name="email" required />
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" />
+              <label for="purpose">Purpose Of Contact*</label>
+              <input type="text" id="purpose" name="purpose" required />
+              <label for="message">Comment or Message*</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+              <button type="submit" class="cta-button">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="images/logo.png" alt="An Electrician Inc. Footer Logo" />
+          <p><span class="electric-text">AnElectrician, Inc</span></p>
+        </div>
+        <div class="footer-links">
+          <h4 class="spark-element">Useful Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#brochure">Brochure</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="social-media">
+          <h4 class="spark-element">Connect With Us</h4>
+          <a href="https://www.facebook.com/AnElectricianInc/" target="_blank">
+            <i class="fab fa-facebook-f"></i> Facebook
+          </a>
+          <a
+            href="https://www.yelp.com/biz/an-electrician-arcata-3"
+            target="_blank"
+          >
+            <i class="fab fa-yelp"></i> Yelp
+          </a>
+        </div>
+      </div>
+      <p>
+        &copy; <span id="current-year">2023</span> AnElectrician Inc. All Rights
+        Reserved.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
