@@ -1,6 +1,6 @@
 # Image directories
-images/
-Employeeicons/
+# These directories will be kept empty in the repo
+# You'll need to upload images manually
 
 # OS files
 .DS_Store
