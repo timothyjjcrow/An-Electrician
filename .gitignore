@@ -9,5 +9,6 @@ Employeeicons/
 *.bak
 *.new
 
-# PDF files (if you want to add them separately later)
-# *.pdf 
+# PDF files
+*.pdf
+aei-brochure-web.pdf 
